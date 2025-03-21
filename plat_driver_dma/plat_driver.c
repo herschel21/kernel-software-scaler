@@ -197,5 +197,8 @@ module_init(my_init);
 module_exit(my_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your Name");
-MODULE_DESCRIPTION("Platform Driver with Two DMA Buffers and mmap Support");
+MODULE_AUTHOR("Harshel");
+MODULE_DESCRIPTION("Linux device driver");
+MODULE_VERSION("1.4");
+
+

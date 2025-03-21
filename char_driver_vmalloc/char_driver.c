@@ -1,13 +1,3 @@
-/***************************************************************************//**
-*  \file       driver.c
-*
-*  \details    Simple Linux device driver (Real Linux Device Driver)
-*
-*  \author     EmbeTronicX
-*
-*  \Tested with Linux raspberrypi 5.10.27-v7l-embetronicx-custom+
-*
-*******************************************************************************/
 #include <linux/kernel.h>
 #include <linux/init.h>
 #include <linux/module.h>
@@ -234,7 +224,7 @@ module_init(etx_driver_init);
 module_exit(etx_driver_exit);
  
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("EmbeTronicX <embetronicx@gmail.com>");
-MODULE_DESCRIPTION("Simple Linux device driver (Real Linux Device Driver)");
+MODULE_AUTHOR("Harshel");
+MODULE_DESCRIPTION("Linux device driver");
 MODULE_VERSION("1.4");
 
